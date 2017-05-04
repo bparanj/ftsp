@@ -1,24 +1,8 @@
-# README
+Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails g model article name content:text published_at:datetime author_id:integer
+rails g model author name
+rails g model comment name content:text article_id:integer
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
